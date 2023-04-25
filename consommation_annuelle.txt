@@ -1,0 +1,3 @@
+IdClient, Consommation, Annee, ID ZoneGeog, Date Saisie
+21,3000, 2022, 3, 2022-12-30
+22, 3200, 2022, 3, 2022-12-30

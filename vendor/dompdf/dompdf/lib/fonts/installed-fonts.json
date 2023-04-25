@@ -1,0 +1,11 @@
+{
+    "open sans": {
+        "italic": "C:\\xampp\\htdocs\\phpModule\\projectTp2\\vendor\\dompdf\\dompdf\/lib\/fonts\/open_sans_italic_e9604750f83ae7f38d39e13a06017607",
+        "300": "C:\\xampp\\htdocs\\phpModule\\projectTp2\\vendor\\dompdf\\dompdf\/lib\/fonts\/open_sans_300_8eafd575bbaef3821514b2ae187a32c3",
+        "normal": "C:\\xampp\\htdocs\\phpModule\\projectTp2\\vendor\\dompdf\\dompdf\/lib\/fonts\/open_sans_normal_0de70c49c12ad3d5b30897be0764f760",
+        "500": "C:\\xampp\\htdocs\\phpModule\\projectTp2\\vendor\\dompdf\\dompdf\/lib\/fonts\/open_sans_500_e5c00ff5fbdabfd1178bcb6213f08eaa",
+        "600": "C:\\xampp\\htdocs\\phpModule\\projectTp2\\vendor\\dompdf\\dompdf\/lib\/fonts\/open_sans_600_80b344cbabc13253146884f38d4f451d",
+        "bold": "C:\\xampp\\htdocs\\phpModule\\projectTp2\\vendor\\dompdf\\dompdf\/lib\/fonts\/open_sans_bold_307c8b05e5c1ebed4511274cd14c5aa1",
+        "800": "open_sans_800_76c458dee2d5a4bbd044249c24f06cf5"
+    }
+}

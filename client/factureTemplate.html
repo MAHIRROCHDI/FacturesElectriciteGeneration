@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facture</title>
+    <!-- font awsome librarry -->
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/admin/framework.css">
+    <link rel="stylesheet" href="../css/admin/master.css">
+    <style>
+        .page {
+            background-color: #EEE ;
+        }
+        .Quick-draft {
+            width: 600px;
+            margin: 20px auto; 
+        }
+        .p-20 {
+            padding : 20px ; 
+        }
+        .bg-white {
+            background-color : white  ; 
+        }
+        .rad-10 {
+            border-radius : 10px ;  
+        }
+        .m-20 {
+            margin : 20px ; 
+        }
+        .mb-10 {
+            margin-bottom: 10px ;
+        }
+        .mb-15 {
+            margin-bottom : 15px ; 
+        }
+        .fs-15 {
+            font-size : 15px ; 
+        }
+        .p-15 {
+            padding : 15px; 
+        }
+        .fs-14 {
+            font-size: 14px;
+        }
+        .txt-c {
+            text-align : center ; 
+        }
+        .d-block {
+            display : block ; 
+        }
+        .fw-bold {
+            font-weight : bold ; 
+        }
+        .c-red {
+            color : red ; 
+        }
+        .w-100 {
+            width : 100px ; 
+        }
+        .mt-0 {
+            margin-top : 0 ; 
+        }
+        .mb-0 {
+            margin-right : 0 ; 
+        }
+        .c-orange {
+            color : orange ; 
+        }
+        .c-gray {
+            color : gray; 
+        }
+        .txt-left {
+            text-align : left ; 
+        }
+        .m-auto-left {
+            margin-left : auto ; 
+        }
+    </style>
+    <!-- google fonts : open sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page d-flex">
+        <div class="content w-full">
+            <div class="Quick-draft p-20 bg-white rad-10 m-20 w-600">
+                <div class="between-flex">
+                    <h2 class="c-orange mt-0 mb-0">Electrica</h2>
+                    <span class="d-block"> {{ date }}</span>
+                </div>
+                <h2 class="mt-0 mb-10 txt-c">Facture d'Electricite</h2>
+                <!-- <p class="mt-0 mb-20 c-gray fs-15">facture </p> -->
+                    <div class="info-perso mb-15 fs-15">
+                        <span class="d-block"> Client : {{ name }} {{ prenom }}</span>
+                        <span class="d-block"> CIN  : {{ cin }}</span>
+                        <span class="d-block"> Address : {{ add }}</span>
+                        <span class="d-block"> Agent : {{ agent }}</span>
+                    </div>
+                <!-- About facture  -->
+                <div class="mb-15">
+                    <span class="mr-10 d-block fs-14 txt-c">Votre Consommation du mois : {{ moisFacture }}/{{ annFacture }}</span> 
+                </div>
+                <div class="b-solid p-15 rad-10 mb-15">
+                    <span class="c-gray fw-bold">Consomation : </span>{{ consomationMent }} KWH<br> 
+                    <span class="c-gray fw-bold">MontantHT : </span>  {{ montantHT }} DH<br>
+                    <span class="c-gray fw-bold"> Totale montant TTC : </span>{{ montantTTC }} DH<br>
+                </div>
+                <p class="fs-14 c-gray"><span class="c-red">NB :</span> Il faut paye cette facture avant : {{ delai }}</p>
+                <div class="between-flex">
+                    <span class="c-gray fs-14">*TVA : 14%</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
