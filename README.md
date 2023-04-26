@@ -12,18 +12,20 @@ I developed a web app that generates electricity bills based on monthly consumpt
 ## Overview
 
 ### Screenshots
-
+#### Admin space: 
 ![](images/1.png)
 ![](images/2.jpg)
 ![](images/3.jpg)
 ![](images/4.jpg)
 ![](images/5.jpg)
+![](images/11.jpg)
 ![](images/6.png)
 ![](images/7.png)
-![](images/8.jpg)
+#### Client space: 
 ![](images/9.jpg)
 ![](images/10.jpg)
 ![](images/11.jpg)
+#### Agent space: 
 ![](images/12.jpg)
 
 ## My process
