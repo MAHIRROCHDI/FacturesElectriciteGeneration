@@ -32,6 +32,7 @@ Finally, the web application provides a dashboard to display summary information
 ![](images/8.jpg)
 ![](images/9.jpg)
 ![](images/10.jpg)
+![](images/13.jpg)
 #### Agent space: 
 ![](images/12.jpg)
 
