@@ -12,8 +12,9 @@ I developed a web app that generates electricity bills based on monthly consumpt
 ## Overview
 
 ### Screenshots
-#### Admin space: 
+#### Home page: 
 ![](images/1.png)
+#### Admin space :
 ![](images/2.jpg)
 ![](images/3.jpg)
 ![](images/4.jpg)
