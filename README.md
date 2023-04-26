@@ -1,5 +1,11 @@
 # Web application for generating electrical invoices
-I developed a web app that generates electricity bills based on monthly consumption and uploaded photos. It also manages customer data, automates annual consumption, and provides a dashboard for statistics. Other features include a complaint filing system, geographical area management by agents, and pricing calculated based on monthly unit price.
+I have worked on an exciting project to develop a web application for generating electricity bills. This application allows customers to enter their monthly electricity consumption and upload a photo of their meter for accurate and transparent billing. Customers can also view their electricity bills and file a complaint.
+
+The supplier can manage customers by adding and modifying their information, verifying customer electricity consumption information at the end of each year, and generating bills for each customer. Each bill contains customer information, electricity consumption, and price (excluding and including taxes), calculated based on the monthly unit price according to consumption. Customers are divided by geographical area, and each area is managed by an agent.
+
+The project also includes a functionality to automate the insertion of each customer's annual consumption, which is submitted by agents in an annual consumption file.
+
+Finally, the web application provides a dashboard to display summary information on the amount of unpaid bills, electricity consumption per month and per geographical area, and other statistics.
 
 ## Table of contents
 
