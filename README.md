@@ -24,7 +24,6 @@ I developed a web app that generates electricity bills based on monthly consumpt
 #### Client space: 
 ![](images/9.jpg)
 ![](images/10.jpg)
-![](images/11.jpg)
 #### Agent space: 
 ![](images/12.jpg)
 
